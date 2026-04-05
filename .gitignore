@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+
+# Data (too large for git — download separately)
+data/
+
+# Model weights (too large for git)
+outputs/models/*.keras
+outputs/models/*.tflite
+outputs/models/*.h5
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Experiment logs (regenerated on each run)
+outputs/experiments.json
